@@ -123,21 +123,49 @@ void draw() {
   // this logic is in draw in the android
   // version since mouseDragged seems to really slow things
   // down!
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  if (mousePressed){
+     dragging = true;
+      droid.setPosition(physics.screenToWorld(new Vec2(mouseX, mouseY)));
+  }
+=======
+>>>>>>> e8aeabb16d540e9f5a9ba76f5fcc94488899384b
 //  if (mousePressed){
 //     dragging = true;
 //      droid.setPosition(physics.screenToWorld(new Vec2(mouseX, mouseY)));
 //  }
+<<<<<<< HEAD
+=======
+>>>>>>> b8d12f9e6be90e665f1432137c4f8a0d8b79644b
+>>>>>>> e8aeabb16d540e9f5a9ba76f5fcc94488899384b
 }
 
 // mouseDragged runs like a dead penguin on android
 // so we put this logic in the draw function instead
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+//void mouseDragged()
+//{
+//  // tie the droid to the mouse while we are dragging
+//  dragging = true;
+//  droid.setPosition(physics.screenToWorld(new Vec2(mouseX, mouseY)));
+//}
+=======
+>>>>>>> e8aeabb16d540e9f5a9ba76f5fcc94488899384b
 void mouseDragged()
 {
   // tie the droid to the mouse while we are dragging
   dragging = true;
   droid.setPosition(physics.screenToWorld(new Vec2(mouseX, mouseY)));
 }
+<<<<<<< HEAD
+=======
+>>>>>>> b8d12f9e6be90e665f1432137c4f8a0d8b79644b
+>>>>>>> e8aeabb16d540e9f5a9ba76f5fcc94488899384b
 
 // when we release the mouse, apply an impulse based 
 // on the distance from the droid to the catapult
