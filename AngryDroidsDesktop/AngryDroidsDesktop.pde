@@ -63,11 +63,6 @@ void setup() {
    //
    //
    //
-   /*
-   *
-   *
-   *
-   */
   
   physics = new Physics(this, width, height, 0, -10, width*2, height*2, width, height, 100);
   // this overrides the debug render of the physics engine
