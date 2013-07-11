@@ -59,8 +59,10 @@ void setup() {
    * screenAABBHeight The world's height, in pixels - should be significantly larger than the area you intend to use
    * borderBoxWidth The containing box's width - should be smaller than the world width, so that no object can escape
    * borderBoxHeight The containing box's height - should be smaller than the world height, so that no object can escape
-   * pixelsPerMeter Pixels per physical meter*/
-  
+   * pixelsPerMeter Pixels per physical meter
+   *
+   *
+   */
   physics = new Physics(this, width, height, 0, -10, width*2, height*2, width, height, 100);
   // this overrides the debug render of the physics engine
   // with the method myCustomRenderer
